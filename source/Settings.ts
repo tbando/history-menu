@@ -10,6 +10,7 @@ export interface Settings {
 	animate?: boolean
 	expand?: boolean
 	preferSelect?: boolean
+	openInNewTab?: boolean
 	tabsFirst?: boolean
 	theme?: string
 	darkMode?: string
@@ -64,6 +65,7 @@ export type I18nKey =
 	| "options_history_count"
 	| "options_expand_folders"
 	| "options_prefer_select"
+	| "options_open_in_new_tab"
 	| "options_lang"
 	| "options_theme"
 	| "options_dark_mode"

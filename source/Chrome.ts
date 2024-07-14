@@ -215,15 +215,20 @@ settings: {
 }, // namespace Chrome.settings
 
 tabs : {
-	async openInCurrentTab(url : string, inBackground : boolean) {
-		const { id : windowId } = await chrome.windows.getCurrent();
-		if (!inBackground) {
-			const [ active ] = await chrome.tabs.query({ active : true, windowId });
-			if (active) {
-				return await chrome.tabs.update(active.id, { url })
-			}
-		}
-		return await chrome.tabs.create({ windowId, url, active: !inBackground });
+	async openUrl(url : string, inBackground : boolean, openInNewTab : boolean) {
+    //openInNewTab = true;
+    if (openInNewTab) {
+      return await window.open(url, "")
+    } else {
+		  const { id : windowId } = await chrome.windows.getCurrent();
+		  if (!inBackground) {
+		  	const [ active ] = await chrome.tabs.query({ active : true, windowId });
+		  	if (active) {
+		  		return await chrome.tabs.update(active.id, { url })
+		  	}
+		  }
+		  return await chrome.tabs.create({ windowId, url, active: !inBackground });
+    }
 	},
 
 	/**
@@ -238,7 +243,7 @@ tabs : {
 	 */
 	// open url or if tab with URL already exists, select it instead
 	// Only consider the current window
-	async openOrSelect(url : string, inBackground : boolean) {
+	async openOrSelect(url : string, inBackground : boolean, openInNewTab : boolean) {
 		const window = await chrome.windows.getCurrent();
 		// Can't use URL in the query, it doesn't work on queries such as: "*://localhost:port/" - it throws
 		const tabs =
@@ -252,7 +257,7 @@ tabs : {
 				return chrome.tabs.update(tabs[0], {active: true});
 			}
 		} else {
-			return Chrome.tabs.openInCurrentTab(url, inBackground);
+			return Chrome.tabs.openUrl(url, inBackground, openInNewTab);
 		}
 	},
 }, // namespace Chrome.tabs

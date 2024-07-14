@@ -266,7 +266,7 @@ function main(
 	})) as Layer;
 	const anchorClick = (url : string) => async (e : MouseEvent) => {
 		const inBackground = isInBackground(e);
-		await Chrome.tabs.openOrSelect(url, inBackground);
+		await Chrome.tabs.openOrSelect(url, inBackground, settings.openInNewTab);
 		if (!inBackground) {
 			window.close();
 		}
@@ -459,6 +459,7 @@ async function* streamHistoryNodes(
 				title,
 				lastVisitTime : settings.timer ? item.lastVisitTime : undefined,
 				preferSelect : settings.preferSelect,
+				openInNewTab : settings.openInNewTab,
 				originalTitle : aux.title,
 				aux : aux.aux
 			})
@@ -516,6 +517,7 @@ async function getHistoryNodes(i18n : I18n, settings : Settings, titleMap : Map<
 					title,
 					lastVisitTime : settings.timer ? item.lastVisitTime : undefined,
 					preferSelect : settings.preferSelect,
+					openInNewTab : settings.openInNewTab,
 					originalTitle : aux.title,
 					aux : aux.aux
 				})
