@@ -34,12 +34,14 @@ function sanitize(item : {
 
 interface HistoryButtonInfo extends chrome.history.HistoryItem {
 	preferSelect? : boolean
+	openInNewTab? : boolean
 	originalTitle? : string
 	aux? : string
 }
 
 export default class HistoryButton extends TimerButton {
 	preferSelect: boolean
+	openInNewTab: boolean
 	readonly #lastModified: number
 	readonly #remove: HTMLElement
 	readonly #interval: NodeJS.Timeout
@@ -50,6 +52,7 @@ export default class HistoryButton extends TimerButton {
 		this.DOM.classList.add("History");
 		this.url          = item.url ?? "";
 		this.preferSelect = item.preferSelect ?? false;
+		this.openInNewTab = item.openInNewTab ?? false;
 		if (item.lastVisitTime) {
 			this.#lastModified = item.lastVisitTime;
 		}
@@ -79,12 +82,12 @@ export default class HistoryButton extends TimerButton {
 					(this.parent as Parent).remove(this);
 				}
 			} else if (this.preferSelect) {
-				await Chrome.tabs.openOrSelect(this.url, inBackground);
+				await Chrome.tabs.openOrSelect(this.url, inBackground, this.openInNewTab);
 				if (!inBackground) {
 					window.close();
 				}
 			} else {
-				await Chrome.tabs.openInCurrentTab(this.url, inBackground);
+				await Chrome.tabs.openUrl(this.url, inBackground, this.openInNewTab);
 				if (!inBackground) {
 					window.close()
 				}

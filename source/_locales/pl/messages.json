@@ -1,152 +1,156 @@
 {
-	"description": {
-		"message": "Przywróć, usuń i filtruj zamknięte karty, okna i historię włączając te z innych urządzeń."
-	},
-	"popup_history_manager": {
-		"message": "Wyświetl całą historię"
-	},
-	"popup_recently_closed_tabs": {
-		"message": "Ostatnio Zamknięte Karty"
-	},
-	"popup_recent_history": {
-		"message": "Ostatnio Przeglądane"
-	},
-	"popup_search_history": {
-		"message": "Szukaj w historii"
-	},
-	"popup_other_devices": {
-		"message": "Inne urządzenia"
-	},
-	"popup_options": {
-		"message": "Opcje"
-	},
-	"popup_back": {
-		"message": "Wstecz"
-	},
-	"popup_ok": {
-		"message": "OK"
-	},
-	"popup_window": {
-		"message": "Okno"
-	},
-	"popup_number_of_tabs": {
-		"message": "Liczba kart"
-	},
-	"results_recently": {
-		"message": "Ostatnie"
-	},
-	"results_today": {
-		"message": "Dzisiaj"
-	},
-	"results_yesterday": {
-		"message": "Wczoraj"
-	},
-	"results_this_week": {
-		"message": "Wcześniej w tym tygodniu"
-	},
-	"results_last_week": {
-		"message": "W ubiegłym tygodniu"
-	},
-	"results_this_month": {
-		"message": "Wcześniej w tym miesiącu"
-	},
-	"results_last_month": {
-		"message": "W ubiegłym miesiącu"
-	},
-	"results_nothing_found": {
-		"message": "Niczego nie znaleziono"
-	},
-	"results_end": {
-		"message": "Koniec wyników"
-	},
-	"options_display": {
-		"message": "Wygląd"
-	},
-	"options_behavior": {
-		"message": "Zachowanie"
-	},
-	"options_other": {
-		"message": "Inne"
-	},
-	"options_height": {
-		"message": "Wysokość menu"
-	},
-	"options_width": {
-		"message": "Szereokość menu"
-	},
-	"options_tabs_first": {
-		"message": "Zamknięte karty przed historią"
-	},
-	"options_sync": {
-		"message": "Synchronizuj ustawienia"
-	},
-	"options_reset": {
-		"message": "Domyślne ustawienia"
-	},
-	"icon_color": {
-		"message": "Kolor ikony"
-	},
-	"granite": {
-		"message": "Granitowy"
-	},
-	"white": {
-		"message": "Biały"	
-	},
-	"red": {
-		"message": "Czerwony"
-	},
-	"green": {
-		"message": "Zielony"
-	},
-	"blue": {
-		"message": "Niebieski"
-	}, 
-	"options_timer": {
-		"message": "Pokaż czas zamknięcia karty"
-	},
-	"options_tab_count": {
-		"message": "Maksymalna liczba zamkniętych kart"
-	},
-	"options_history_count": {
-		"message": "Maksymalna liczba wpisów historii"
-	},
-	"options_expand_folders": {
-		"message": "Rozwijaj zamknięte okna"
-	},
-	"options_prefer_select": {
-		"message": "Nie otwieraj istniejących kart"
-	},
-	"options_lang": {
-		"message": "Język"
-	},
-	"options_theme": {
-		"message": "Styl interfejsu"
-	},
-	"options_dark_mode": {
-		"message": "Tryb nocny"
-	},
-	"options_enabled": {
-		"message": "Włączony"
-	},
-	"options_disabled": {
-		"message": "Wyłączony"
-	},
-	"options_animate": {
-		"message": "Włącz animacje"
-	},
-	"options_about": {
-		"message": "Informacje"
-	},
-	"options_blacklist": {
-		"message": "Ostatnio przeglądane: czarna lista"
-	},
-	"example": {
-		"message": "Przykład"
-	},
-	"remove": {
-		"message": "Usuń"
-	},
-	"hide_domain_from_title": {
-		"message": "Ukryj domenę w tytułach, np. \" - Wikipedia\" w wikipedia.com"
-	}
+  "description": {
+    "message": "Przywróć, usuń i filtruj zamknięte karty, okna i historię włączając te z innych urządzeń."
+  },
+  "popup_history_manager": {
+    "message": "Wyświetl całą historię"
+  },
+  "popup_recently_closed_tabs": {
+    "message": "Ostatnio Zamknięte Karty"
+  },
+  "popup_recent_history": {
+    "message": "Ostatnio Przeglądane"
+  },
+  "popup_search_history": {
+    "message": "Szukaj w historii"
+  },
+  "popup_other_devices": {
+    "message": "Inne urządzenia"
+  },
+  "popup_options": {
+    "message": "Opcje"
+  },
+  "popup_back": {
+    "message": "Wstecz"
+  },
+  "popup_ok": {
+    "message": "OK"
+  },
+  "popup_window": {
+    "message": "Okno"
+  },
+  "popup_number_of_tabs": {
+    "message": "Liczba kart"
+  },
+  "results_recently": {
+    "message": "Ostatnie"
+  },
+  "results_today": {
+    "message": "Dzisiaj"
+  },
+  "results_yesterday": {
+    "message": "Wczoraj"
+  },
+  "results_this_week": {
+    "message": "Wcześniej w tym tygodniu"
+  },
+  "results_last_week": {
+    "message": "W ubiegłym tygodniu"
+  },
+  "results_this_month": {
+    "message": "Wcześniej w tym miesiącu"
+  },
+  "results_last_month": {
+    "message": "W ubiegłym miesiącu"
+  },
+  "results_nothing_found": {
+    "message": "Niczego nie znaleziono"
+  },
+  "results_end": {
+    "message": "Koniec wyników"
+  },
+  "options_display": {
+    "message": "Wygląd"
+  },
+  "options_behavior": {
+    "message": "Zachowanie"
+  },
+  "options_other": {
+    "message": "Inne"
+  },
+  "options_height": {
+    "message": "Wysokość menu"
+  },
+  "options_width": {
+    "message": "Szereokość menu"
+  },
+  "options_tabs_first": {
+    "message": "Zamknięte karty przed historią"
+  },
+  "options_sync": {
+    "message": "Synchronizuj ustawienia"
+  },
+  "options_reset": {
+    "message": "Domyślne ustawienia"
+  },
+  "icon_color": {
+    "message": "Kolor ikony"
+  },
+  "granite": {
+    "message": "Granitowy"
+  },
+  "white": {
+    "message": "Biały"
+  },
+  "red": {
+    "message": "Czerwony"
+  },
+  "green": {
+    "message": "Zielony"
+  },
+  "blue": {
+    "message": "Niebieski"
+  },
+  "options_timer": {
+    "message": "Pokaż czas zamknięcia karty"
+  },
+  "options_tab_count": {
+    "message": "Maksymalna liczba zamkniętych kart"
+  },
+  "options_history_count": {
+    "message": "Maksymalna liczba wpisów historii"
+  },
+  "options_expand_folders": {
+    "message": "Rozwijaj zamknięte okna"
+  },
+  "options_prefer_select": {
+    "message": "Nie otwieraj istniejących kart"
+  },
+  "options_open_in_new_tab": {
+    "message": "Open in new tab",
+    "description": "Open selected history in new tab rather than active one"
+  },
+  "options_lang": {
+    "message": "Język"
+  },
+  "options_theme": {
+    "message": "Styl interfejsu"
+  },
+  "options_dark_mode": {
+    "message": "Tryb nocny"
+  },
+  "options_enabled": {
+    "message": "Włączony"
+  },
+  "options_disabled": {
+    "message": "Wyłączony"
+  },
+  "options_animate": {
+    "message": "Włącz animacje"
+  },
+  "options_about": {
+    "message": "Informacje"
+  },
+  "options_blacklist": {
+    "message": "Ostatnio przeglądane: czarna lista"
+  },
+  "example": {
+    "message": "Przykład"
+  },
+  "remove": {
+    "message": "Usuń"
+  },
+  "hide_domain_from_title": {
+    "message": "Ukryj domenę w tytułach, np. \" - Wikipedia\" w wikipedia.com"
+  }
 }

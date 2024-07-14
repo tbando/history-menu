@@ -218,6 +218,11 @@ async function main() {
 			change:  x => settings.preferSelect = x,
 		}),
 		new Checkbox({
+			title:   i18n("options_open_in_new_tab"),
+			checked: settings.openInNewTab,
+			change:  x => settings.openInNewTab = x,
+		}),
+		new Checkbox({
 			title:   i18n("hide_domain_from_title"),
 			checked: settings.trimTitles,
 			change:  x => settings.trimTitles = x,

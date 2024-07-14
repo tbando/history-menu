@@ -1,152 +1,156 @@
 {
-	"description": {
-		"message": "閉じたタブとウィンドウや履歴などを探して復元する"
-	},
-	"popup_history_manager": {
-		"message": "履歴を開く"
-	},
-	"popup_recently_closed_tabs": {
-		"message": "最近閉じたタブ"
-	},
-	"popup_recent_history": {
-		"message": "最近の履歴"
-	},
-	"popup_search_history": {
-		"message": "履歴の検索"
-	},
-	"popup_other_devices": {
-		"message": "他のデバイス"
-	},
-	"popup_options": {
-		"message": "オプション"
-	},
-	"popup_back": {
-		"message": "戻る"
-	},
-	"popup_ok": {
-		"message": "OK"
-	},
-	"popup_window": {
-		"message": "ウィンドウ"
-	},
-	"popup_number_of_tabs": {
-		"message": "タブの数"
-	},
-	"results_recently": {
-		"message": "最近"
-	},
-	"results_today": {
-		"message": "今日"
-	},
-	"results_yesterday": {
-		"message": "昨日"
-	},
-	"results_this_week": {
-		"message": "今週"
-	},
-	"results_last_week": {
-		"message": "先週"
-	},
-	"results_this_month": {
-		"message": "今月"
-	},
-	"results_last_month": {
-		"message": "先月"
-	},
-	"results_nothing_found": {
-		"message": "一致するものが見つかりませんでした"
-	},
-	"results_end": {
-		"message": "検索終了"
-	},
-	"options_display": {
-		"message": "表示"
-	},
-	"options_behavior": {
-		"message": "動作"
-	},
-	"options_other": {
-		"message": "他の"
-	},
-	"options_height": {
-		"message": "ポップアップの身長"
-	},
-	"options_width": {
-		"message": "ポップアップの幅"
-	},
-	"options_tabs_first": {
-		"message": "履歴の前にタブ"
-	},
-	"options_sync": {
-		"message": "同期"
-	},
-	"icon_color": {
-		"message": "アイコンの色"
-	},
-	"granite": {
-		"message": "御影石"
-	},
-	"white": {
-		"message": "白"
-	},
-	"red": {
-		"message": "赤"
-	},
-	"green": {
-		"message": "緑"
-	},
-	"blue": {
-		"message": "青"
-	},
-	"options_timer": {
-		"message": "閲覧時刻の表示"
-	},
-	"options_tab_count": {
-		"message": "閉じるタブの上限"
-	},
-	"options_history_count": {
-		"message": "履歴エントリの上限"
-	},
-	"options_expand_folders": {
-		"message": "閉じたウインドウを開く"
-	},
-	"options_prefer_select": {
-		"message": "タブを選択し、開かない"
-	},
-	"options_lang": {
-		"message": "言語"
-	},
-	"options_theme": {
-		"message": "テーマ"
-	},
-	"options_dark_mode": {
-		"message": "ダークモード"
-	},
-	"options_enabled": {
-		"message": "有効"
-	},
-	"options_disabled": {
-		"message": "無効"
-	},
-	"options_animate": {
-		"message": "アニメーション"
-	},
-	"options_about": {
-		"message": "バージョン情報"
-	},
-	"options_reset": {
-		"message": "リセット"
-	},
-	"options_blacklist": {
-		"message": "最近の履歴のブラックリスト"
-	},
-	"example": {
-		"message": "例"
-	},
-	"remove": {
-		"message": "削除"
-	},
-	"hide_domain_from_title": {
-		"message": "ドメインの名前を隠れる。例えば「 - Wikipedia」にwikipedia.com。"
-	}
+  "description": {
+    "message": "閉じたタブとウィンドウや履歴などを探して復元する"
+  },
+  "popup_history_manager": {
+    "message": "履歴を開く"
+  },
+  "popup_recently_closed_tabs": {
+    "message": "最近閉じたタブ"
+  },
+  "popup_recent_history": {
+    "message": "最近の履歴"
+  },
+  "popup_search_history": {
+    "message": "履歴の検索"
+  },
+  "popup_other_devices": {
+    "message": "他のデバイス"
+  },
+  "popup_options": {
+    "message": "オプション"
+  },
+  "popup_back": {
+    "message": "戻る"
+  },
+  "popup_ok": {
+    "message": "OK"
+  },
+  "popup_window": {
+    "message": "ウィンドウ"
+  },
+  "popup_number_of_tabs": {
+    "message": "タブの数"
+  },
+  "results_recently": {
+    "message": "最近"
+  },
+  "results_today": {
+    "message": "今日"
+  },
+  "results_yesterday": {
+    "message": "昨日"
+  },
+  "results_this_week": {
+    "message": "今週"
+  },
+  "results_last_week": {
+    "message": "先週"
+  },
+  "results_this_month": {
+    "message": "今月"
+  },
+  "results_last_month": {
+    "message": "先月"
+  },
+  "results_nothing_found": {
+    "message": "一致するものが見つかりませんでした"
+  },
+  "results_end": {
+    "message": "検索終了"
+  },
+  "options_display": {
+    "message": "表示"
+  },
+  "options_behavior": {
+    "message": "動作"
+  },
+  "options_other": {
+    "message": "他の"
+  },
+  "options_height": {
+    "message": "ポップアップの身長"
+  },
+  "options_width": {
+    "message": "ポップアップの幅"
+  },
+  "options_tabs_first": {
+    "message": "履歴の前にタブ"
+  },
+  "options_sync": {
+    "message": "同期"
+  },
+  "icon_color": {
+    "message": "アイコンの色"
+  },
+  "granite": {
+    "message": "御影石"
+  },
+  "white": {
+    "message": "白"
+  },
+  "red": {
+    "message": "赤"
+  },
+  "green": {
+    "message": "緑"
+  },
+  "blue": {
+    "message": "青"
+  },
+  "options_timer": {
+    "message": "閲覧時刻の表示"
+  },
+  "options_tab_count": {
+    "message": "閉じるタブの上限"
+  },
+  "options_history_count": {
+    "message": "履歴エントリの上限"
+  },
+  "options_expand_folders": {
+    "message": "閉じたウインドウを開く"
+  },
+  "options_prefer_select": {
+    "message": "タブを選択し、開かない"
+  },
+  "options_open_in_new_tab": {
+    "message": "Open in new tab",
+    "description": "Open selected history in new tab rather than active one"
+  },
+  "options_lang": {
+    "message": "言語"
+  },
+  "options_theme": {
+    "message": "テーマ"
+  },
+  "options_dark_mode": {
+    "message": "ダークモード"
+  },
+  "options_enabled": {
+    "message": "有効"
+  },
+  "options_disabled": {
+    "message": "無効"
+  },
+  "options_animate": {
+    "message": "アニメーション"
+  },
+  "options_about": {
+    "message": "バージョン情報"
+  },
+  "options_reset": {
+    "message": "リセット"
+  },
+  "options_blacklist": {
+    "message": "最近の履歴のブラックリスト"
+  },
+  "example": {
+    "message": "例"
+  },
+  "remove": {
+    "message": "削除"
+  },
+  "hide_domain_from_title": {
+    "message": "ドメインの名前を隠れる。例えば「 - Wikipedia」にwikipedia.com。"
+  }
 }
